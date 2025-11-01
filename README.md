@@ -1,4 +1,4 @@
-# Self-Supervised and Contrastive Learning on CIFAR-10
+# SimSiam: Self-Supervised and Contrastive Representation Learning
 
 This project, developed for an M.S. Deep Learning course, implements and compares three representation learning strategies on the CIFAR-10 dataset: a supervised baseline, a multi-task pretext (self-supervised) model, and a SimSiam (contrastive) model. The primary goal is to demonstrate the effectiveness of self-supervised and contrastive methods in a low-data regime, where only a small subset of labeled data (5,000 images) is available for (fine-)tuning.
 
@@ -84,7 +84,7 @@ All models share an identical backbone architecture (defined in `src/models.py`)
 ## Project Structure
 
 ```
-pytorch-ssl-contrastive-learning/
+pytorch-simsiam-contrastive-ssl/
 ├── .gitignore                  # Ignores data, logs, outputs, and venv
 ├── LICENSE                     # MIT License
 ├── README.md                   # You are here
@@ -111,8 +111,8 @@ pytorch-ssl-contrastive-learning/
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/msmrexe/pytorch-ssl-contrastive-learning.git
-    cd pytorch-ssl-contrastive-learning
+    git clone https://github.com/msmrexe/pytorch-simsiam-contrastive-ssl.git
+    cd pytorch-simsiam-contrastive-ssl
     ```
 
 2.  **Setup Environment and Install Dependencies:**
