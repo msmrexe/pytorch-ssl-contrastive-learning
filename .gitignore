@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+venv/
+env/
+
+# Data
+# Ignore the data directory, which will be downloaded by torchvision
+/data/
+
+# Logs - keep directory, ignore contents
+/logs/*
+!/logs/.gitkeep
+
+# Outputs - keep directory, ignore contents
+/outputs/*
+!/outputs/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
